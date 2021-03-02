@@ -109,35 +109,10 @@ void test_divide_1(void){
     TEST_ASSERT_EQUAL(3, basic_operation_test(6, 2, 4));
 }
 
-void test_factorial_1(void){PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+void test_factorial_1(void){
+    TEST_ASSERT_EQUAL(120, factorial_test(5));
+}
 
-DOCUMENTATION_OUTPUT = documentation/html
-
-$(PROJECT_NAME):all
-
-.PHONY: run clean test  doc all
-
-all: $(SRC) $(BUILD)
-		gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
-  
-run:$(PROJECT_NAME)
-		./$(PROJECT_OUTPUT)
-	
-doc:
-	make -C ./documentation
-
-
-test:$(BUILD)
-		gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
-			./$(TEST_OUTPUT)
-  
-  
-clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
-  
-  
- $(BUILD):
-	mkdir build
 void test_factorial_2(void){
     TEST_ASSERT_EQUAL(1, factorial_test(0));
 }
@@ -176,7 +151,7 @@ void test_interest_2(void){
     TEST_ASSERT_EQUAL(780, interest_test(5000, 2, 7.8));
 }
 void test_exponential(void){
-    TEST_ASSERT_EQUAL(, exponential_test(0,2));
+    TEST_ASSERT_EQUAL(0, exponential_test(0,2));
 }
 void test_average(void){
     int a[5]={5,6,5,3,2};
