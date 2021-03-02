@@ -7,7 +7,7 @@
 Team Summary
 | Name  |  PS No |  Features |  Issue Raised  |Issue Resolved   |
 |---|---|---|---|---|
-|  Amirthakatesa Sairaj R |   99003506 | Exponential function,UMLs for exponential| 2  | 2  |
+|  Amirthakatesa Sairaj R |   99003506 | Exponential function,UMLs for exponential| V1-2,V2-4  | V1-2,V2-4  |
 | Thanu K V  | 99003507  |  Trignometric function,test plan | 1  |  1 |
 | Rajath P DP D  |  99003510 |  Simple intrest,SWOT analysis, Cost and aging|  2 |  2 |
 | Santhrupthi K  |  99003511 | Power function , Pros and Cons | 3  |  3 |
