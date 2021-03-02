@@ -24,7 +24,10 @@
 |         |                               | A=64001                 | Error         |                 |
 | TL_08   | Exponential                   | V1-x=1                     | 2.701         |                 |
 |         |                               | V1-x=-5                    | 0.0006        |                 |
-|         |                               | V2-Base number=3,Exponential = 4        |  81.00          |
+|         |                               | V2-Base number=3,Exponential=4          |  81.00          |
+|         |                               | V2-Base number=2,Exponential=1          | 2.00            |
+|         |                               | V2-Base number=2.1,Exponential=3        | 9.26            |
+|         |                               | V2-Base number=2.4,Exponential=7.5      | Error           |
 | TL_09   | Simple interest               | P=1000,T=2,R10%         | 200           |                 |
 |         |                               | P=130000000,T=4,R=20%   | Error         |                 |
 | TL_10   | Logarthmic                    | num=8,base=2            | 3             |                 |
