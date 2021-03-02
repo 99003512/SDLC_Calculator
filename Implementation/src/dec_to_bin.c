@@ -15,7 +15,7 @@ int dec_to_bin()
     
     printf("\n Binary Number of a Given Number =  ");
     for(j = i - 1; j >= 0; j--)  {
-    printf(" %d ", a[j]);
+    printf("%d", a[j]);
     
     }
     
