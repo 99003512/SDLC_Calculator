@@ -22,8 +22,9 @@
 |         |                               | tan x;x=0               | Error         |                 |
 | TL_07   | Conversion(dec to bin)        | A=37                    | C=10101       |                 |
 |         |                               | A=64001                 | Error         |                 |
-| TL_08   | Exponential                   | x=1                     | 2.701         |                 |
-|         |                               | x=-5                    | 0.0006        |                 |
+| TL_08   | Exponential                   | V1-x=1                     | 2.701         |                 |
+|         |                               | V1-x=-5                    | 0.0006        |                 |
+|         |                               | V2-Base number=3,Exponential = 4        |  81.00          |
 | TL_09   | Simple interest               | P=1000,T=2,R10%         | 200           |                 |
 |         |                               | P=130000000,T=4,R=20%   | Error         |                 |
 | TL_10   | Logarthmic                    | num=8,base=2            | 3             |                 |
