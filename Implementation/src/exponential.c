@@ -1,20 +1,20 @@
 #include <exponential.h>
 int exponential()
 {
-    float basenumber;
-    int exponential, n;
+    float basenumber;   //Basenumber can be of float
+    int exponential, n; //Exponential number must be of only integer
     float result = 1;
     
-    printf("Enter the Base number : ");
+    printf("Enter the Base number : ");  //User enters the base number
     scanf("%f", &basenumber);
-    if(basenumber == 0)
+    if(basenumber == 0) //If base number is zero the user will have to enter a valid number
     {
         printf("Invalid Operand\n");
         printf("Enter a valid Base number : ");
         scanf("%f", &basenumber);
     }
     
-    printf("Enter the Exponential : ");
+    printf("Enter the Exponential : "); //User enters the exponential number
     scanf("%d", &exponential);
     if(exponential>0)
     {
