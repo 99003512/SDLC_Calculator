@@ -15,7 +15,7 @@
 |RL_02   |If the user enters a zero as input for denominator in division calculation, the calculator displays a custom error message   |
 |RL_03   |User should enter the input either in degree form or radians form ,negative values for angles should not be entered.radians can also be given as input for the trigonometric functions.  |
 |RL_04   |If the user enters a higher number as input  in Conversion calculation, the calculator displays only 8 bits|
-|RL_05   |If the user enters a improper input in exponential, it displays an error message if the output is infinity   |
+|RL_05   | V1-If the user enters a improper input in exponential, it displays an error message if the output is infinity. V2-If user enters zero as input the program will display invalid operand and request for a new input |
 |RL_06   |If the user enters a negative number as input for base in logarithmic functions, the calculator displays a custom error message   |
 |RL_07   |User should enter the input time in years and rate in percentage in Simple interest and no negative numbers   |
 |RL_08   |User should enter base and power correctly   |
