@@ -27,7 +27,7 @@
 |         |                               | V2-Base number=3,Exponential=4          |  81.00          |
 |         |                               | V2-Base number=2,Exponential=1          | 2.00            |
 |         |                               | V2-Base number=2.1,Exponential=3        | 9.26            |
-|         |                               | V2-Base number=2.4,Exponential=7.5      | Error           |
+|         |                               | V2-Base number=2.4,Exponential=7.5      | Error(Program only accepts Basenumber as float values)           |
 | TL_09   | Simple interest               | P=1000,T=2,R10%         | 200           |                 |
 |         |                               | P=130000000,T=4,R=20%   | Error         |                 |
 | TL_10   | Logarthmic                    | num=8,base=2            | 3             |                 |
