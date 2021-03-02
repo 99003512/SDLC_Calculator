@@ -14,7 +14,9 @@
 | TL_05   | Factorial of two numbers      | A=5                     | C=120         |                 |
 |         |                               | A=-3                    | Error         |                 |
 |         |                               | A=0                     | C=1           |                 |
-| TL_06   | Trignometric                  | tan x; x=180            | C=0       |                 |
+|         |                               | A=a                     | Error         |                 |
+|         |                               | A=@                     | Error         |                 |
+| TL_06   | Trignometric                  | tan x; x=180            | C=0           |                 |
 |         |                               | tan x;x=45              | C=1           |                 |
 |         |                               | tan x;x=90              | Error         |                 |
 |         |                               | tan x;x=0               | Error         |                 |
