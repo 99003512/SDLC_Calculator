@@ -33,8 +33,7 @@ int bin_to_dec()
     }
     else{
         return decnum;
-    }
-    
+    }  
 }
 
 
